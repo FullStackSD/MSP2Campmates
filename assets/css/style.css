@@ -59,3 +59,34 @@ h2:after {
     background-size: cover;
     height: 100vh;
 }
+
+/*----------------------------------------------------------Nav bar ---------------------*/
+
+/* Centered navbar section inside the top navigation */ 
+/* original code https://www.w3schools.com/howto/howto_css_topnav_centered.asp */
+
+/* Hide logo for larger screens becuase of position */
+@media (min-width: 990px){
+    #logo{
+        display: none;
+    }}
+    
+    /* Hide logo for smaller screens becuase of position */
+    @media (max-width: 990px){
+    #desktop-logo{
+        display: none;
+    }}
+    
+    .navbar {
+        box-shadow: none;
+        background-color: #fafafa;
+        background-color: rgba(0, 0, 0, 0);
+        top: 0;
+        width: 100%;
+        transition: top 0.3s;
+        font-weight: 400;
+    }
+    
+    .navbar-left{
+        margin-right: 20px;
+    }
