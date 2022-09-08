@@ -50,7 +50,7 @@ To test the accessibility and performance of the website.
 To view images of the website on different devices.
 * **Result**
     - The responsiveness of the website looks good.
-- Final version: ![Am I Responsive ](assets/testing_images/AmIResponsiveTestImage.png)
+- Final version: ![Am I Responsive ](assets/wireframes/campmates-mockup.png)
 
 ### [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 To validate the CCS code of the project.
