@@ -162,6 +162,62 @@
             </div>
         </div>
         <!-- Camping info end -->
+
+
+        <div class="container" id="checklist-intro-btns">
+            <div class="row">
+                <!-- Guideline Button and Modal -->
+                <div class="col-12">
+                    <!-- Button trigger modal - orignally from Bootstrap with modifications for project-->
+                    <button type="button" class="btn help-btn" data-toggle="modal" data-target="#exampleModal">LET'S SET
+                        UP CAMP
+                    </button>
+                    <!-- Button trigger modal end-->
+                    <!-- Modal - orignally from Bootstrap with modifications -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <i class="fas fa-water wave-icon" id="wave3"></i>
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Let’s get you started</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" id="modal-p">
+                                    <h6>There are a lot of complex things in the world, this doesn’t have to be one of
+                                        them. Let’s break it down for you.</h6>
+                                    <ol>
+                                        <li>Select the item you have packed or prepared from the pre-prepared list or
+                                            add your own item by typing in the space provided. If you want to create
+                                            your own item, go to the "Own List" category and click or tap on the “+”
+                                            button. </li>
+                                        <li>Select the "Checked" option next to each item you have packed. It will then
+                                            move to the "Already Packed" list.</li>
+                                        <li>Select the "Buy” option next to each item if you still need to buy it. You
+                                            then have the option to select the "Check" button once you have bought and
+                                            packed the item.</li>
+                                        <li>Find an online or physical camping store to purchase what you need. You can
+                                            interact with the map and select the marker on the map to see store
+                                            information. </li>
+                                        <li>Add a review to give us feedback on how you use Campmates. </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal end -->
+                    <!-- Guideline Button and Modal end -->
+                </div>
+                <div class="col-12">
+                    <!-- Button to reset selections -->
+                    <a id="resetbutton" onclick="history.go(0)" href="javascript:history.go(0)"
+                        class="btn clear-btn">Clear all</a>
+                    <!-- Button to reset selections end -->
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
