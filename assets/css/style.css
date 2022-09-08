@@ -231,3 +231,54 @@ h2:after {
 .icon-p{
     font-size: 15px;
 }}
+
+/*--------------------------------------------Scroll up button-----------------*/
+
+/* Scroll up button and icon */
+#scrollButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    color: #AAAAAA;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 17px;
+    border-radius: 50%;
+    margin: 4px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+#scrollButton:hover {
+    background: #163A51;
+    color: white;
+}
+
+/* Scroll up button icon */
+.scrollup-arrow{
+    font-size: 20px;
+}
+
+/*--------------------------------------------Circle ------------------*/
+
+/* Circle graphic shapes */
+.circle {
+    width: 100px;
+    height:  100px;
+    background: #005073;
+    border-radius: 50%;
+    float: right;
+    margin-right: -35px;
+}
+
+/* Circle graphic shapes larger screens */
+@media (min-width: 900px){
+.circle {
+    width: 150px;
+    height:  150px;
+}}
+
+
