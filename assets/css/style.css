@@ -143,3 +143,91 @@ h2:after {
     left: 51%;
     margin-left: -25px; 
 }
+
+/*-------------------------------------------------About Section ----------------------*/
+
+/* About section container */
+#about-section{
+    margin-bottom: 10%;
+}
+
+#about-icon-container{
+    padding-top: 10%;
+}
+
+/* About section wave icons */
+.wave-icon{
+    font-size: 45px;
+    color: #CECECE;
+}
+
+/* About section wave icons larger screens */
+@media (min-width: 900px){
+.wave-icon{
+    font-size: 75px;
+}}
+
+/* About section wave icon 1 */
+#wave1{
+    text-align: right;
+    margin-left: -10px;
+    padding-bottom: 5%;
+}
+
+/* About section wave icon 2 */
+#wave2{
+    text-align: left;
+    margin-right: -10px;
+    padding-top: 5%;
+}
+
+/* About section content */
+.about-row{
+    text-align: center;
+}
+
+/* About section paragraph */
+.p-wrapper{
+    text-align: left;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 25px;
+    color: #003348;
+    font-size: 17px;
+}
+
+/* About section paragraph larger screens */
+@media (min-width: 900px){
+.p-wrapper{
+    font-size: 18px;
+}}
+
+/* About section about icons */
+.icon-row{
+    text-align: center;
+}
+
+.about-icon {
+    font-size: 25px;
+    color: #2FA59E;
+}
+
+/* About section about icons larger screens */
+@media (min-width: 900px){
+.about-icon{
+    font-size: 45px;
+}}
+
+/* About section about icons text */
+.icon-p{
+    padding-top: 20px;
+    font-weight: 500;
+    color:#003348 ;
+    font-size: 16px;
+}
+
+/* About section about icons text larger screens */
+@media (min-width: 900px){
+.icon-p{
+    font-size: 15px;
+}}
