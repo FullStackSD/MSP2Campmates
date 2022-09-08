@@ -115,7 +115,7 @@ h2:after {
     text-transform: uppercase;
     font-weight: 400;
     padding-top: 40px;
-    color: #fff;
+    color: #005073;
 }
 
 /* Start button on Hero-image */
@@ -672,6 +672,10 @@ h2:after {
     color: #fff;
     font-size: large;
     background-color: unset;
+}
+
+.landing-subtitle {
+    color: #fff;
 }}
 
 .review-heading{
@@ -679,6 +683,8 @@ h2:after {
     font-size: 15px;
     color: #fff;
 }
+
+
 
 @media (min-width: 650px){
 .review-heading{
