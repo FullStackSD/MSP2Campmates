@@ -2,7 +2,7 @@
 
 ![Mockup image](assets/wireframes/campmates-mockup.png)
 
-[View live version of website via GitHub Pages]()
+[View live version of website via GitHub Pages](https://fullstacksd.github.io/MSP2Campmates/)
 
 A camping adventure needs some serious planning even for a really experienced adventurer. Campmates is a website that aims to serve as a checklist for individuals heading out on an adventure, helping them keep track of what the need to pack & plan before they set off on their travels. 
 
