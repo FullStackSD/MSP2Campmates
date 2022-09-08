@@ -281,4 +281,66 @@ h2:after {
     height:  150px;
 }}
 
+/*--------------------------------------------Check List intro --------------*/
+
+/* Checklist text boxes */
+#camp-info{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* Checklist info text box labels */
+.cmp-label{
+    margin: 0;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------Checklist Intro buttons ------------- */
+
+/* Help Btn & Clear Btn position */
+#checklist-intro-btns{
+    text-align: center;
+    justify-content: center;
+}
+
+/* Help Button */
+.help-btn{
+    color: #fff;
+    background-color: #163A51;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 50px;
+}
+
+.help-btn:hover{
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Reset Button*/
+.clear-btn{
+    color: #163A51;
+    background-color: #2FA59E;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500 ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*---------------------------------------------------Help Modal -------------*/
+
+/* Modal Icon */
+#wave3{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+/* Modal paragraph */
+#modal-p{
+    text-align: left;
+}
+
+
 
