@@ -79,1064 +79,1078 @@
                     <i class="fas fa-arrow-right"></i>
                     <span id="start-btn-f">Start</span>
                 </a>
-                </div>
-                <div class="hero-arrow">
-                    <a href="#about-section" role="button" aria-label="Go to About section">
-                        <i class="fas fa-chevron-down arrow hvr-bob"></i>
-                    </a>
-                </div>
-                </div>
-                </header>
-                <!-- Landing section end -->
+            </div>
+            <div class="hero-arrow">
+                <a href="#about-section" role="button" aria-label="Go to About section">
+                    <i class="fas fa-chevron-down arrow hvr-bob"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Landing section end -->
 
-                <!-- Scroll up button -->
-                <button onclick="topFunction()" id="scrollButton" title="Go to top">
-                    <i class="fas fa-angle-double-up scrollup-arrow"></i>
-                </button>
-                <!-- Scroll up button end -->
+    <!-- Scroll up button -->
+    <button onclick="topFunction()" id="scrollButton" title="Go to top">
+        <i class="fas fa-angle-double-up scrollup-arrow"></i>
+    </button>
+    <!-- Scroll up button end -->
 
-                <!-- About section -->
-                <section id="about-section">
-                    <div class="wave-icon" id="wave1">
-                        <i class="fas fa-water"></i>
-                    </div>
-                    <div class="title section-underline">
-                        <hgroup class="text-center">
-                            <h2 class="sections-title">About</h2>
-                        </hgroup>
-                    </div>
-                    <div class="container">
-                        <div class="row about-row ">
-                            <div class="col p-wrapper">
-                                <p>A camping trip needs some planning even for an experienced adventurer.
-                                    <b>Campmates</b> is a
-                                    <b>checklist</b> for campers to pack & plan before they set off on an adventure in
-                                    the great
-                                    outdoors. We want you to adventure more and worry less. </p>
-                                <p>We have been part of <b>planning</b> camping trips for outdoor enthusiasts all over
-                                    the world
-                                    including Cape Town, Sydney and Dublin. We look forward to being part of your
-                                    journey.</p>
+    <!-- About section -->
+    <section id="about-section">
+        <div class="wave-icon" id="wave1">
+            <i class="fas fa-water"></i>
+        </div>
+        <div class="title section-underline">
+            <hgroup class="text-center">
+                <h2 class="sections-title">About</h2>
+            </hgroup>
+        </div>
+        <div class="container">
+            <div class="row about-row ">
+                <div class="col p-wrapper">
+                    <p>A camping trip needs some planning even for an experienced adventurer.
+                        <b>Campmates</b> is a
+                        <b>checklist</b> for campers to pack & plan before they set off on an adventure in
+                        the great
+                        outdoors. We want you to adventure more and worry less. </p>
+                    <p>We have been part of <b>planning</b> camping trips for outdoor enthusiasts all over
+                        the world
+                        including Cape Town, Sydney and Dublin. We look forward to being part of your
+                        journey.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container " id="about-icon-container">
+            <div class="row icon-row ">
+                <div class="col ">
+                    <i class="fas fa-tasks about-icon "></i>
+                    <p class="icon-p">Keep Track of what you have packed</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-shopping-basket about-icon "></i>
+                    <p class="icon-p">Make a list of items still to buy</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-map-marker-alt about-icon "></i>
+                    <p class="icon-p">Find an online or physical store</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-icon" id="wave2">
+            <i class="fas fa-water"></i>
+        </div>
+        <div class="circle"></div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Checklist section -->
+    <section id="checklist-section">
+        <div class="title section-underline">
+            <hgroup class="text-center">
+                <h2 class="sections-title">Checklist</h2>
+            </hgroup>
+        </div>
+
+
+        <!-- Campsite info -->
+        <div class="container">
+            <div class="row" id="camp-info">
+                <form class="col-12 col-lg-6">
+                    <label for="formGroupCampmatesInput" class="cmp-label">Type Adventure Name</label>
+                    <input type="text" class="form-control" id="formGroupCampmatesInput">
+                </form>
+                <form class="col-12 col-lg-6">
+                    <label for="formGroupCampsiteInput" class="cmp-label">Campsite Name</label>
+                    <input type="text" class="form-control" id="formGroupCampsiteInput">
+                </form>
+            </div>
+        </div>
+        <!-- Camping info end -->
+
+
+        <div class="container" id="checklist-intro-btns">
+            <div class="row">
+                <!-- Guideline Button and Modal -->
+                <div class="col-12">
+                    <!-- Button trigger modal - orignally from Bootstrap with modifications for project-->
+                    <button type="button" class="btn help-btn" data-toggle="modal" data-target="#exampleModal">LET'S SET
+                        UP CAMP
+                    </button>
+                    <!-- Button trigger modal end-->
+                    <!-- Modal - orignally from Bootstrap with modifications -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <i class="fas fa-water wave-icon" id="wave3"></i>
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Let’s get you started
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" id="modal-p">
+                                    <h6>There are a lot of complex things in the world, this doesn’t have to
+                                        be one of
+                                        them. Let’s break it down for you.</h6>
+                                    <ol>
+                                        <li>Select the item you have packed or prepared from the
+                                            pre-prepared list or
+                                            add your own item by typing in the space provided. If you want
+                                            to create
+                                            your own item, go to the "Own List" category and click or tap on
+                                            the “+”
+                                            button. </li>
+                                        <li>Select the "Checked" option next to each item you have packed.
+                                            It will then
+                                            move to the "Already Packed" list.</li>
+                                        <li>Select the "Buy” option next to each item if you still need to
+                                            buy it. You
+                                            then have the option to select the "Check" button once you have
+                                            bought and
+                                            packed the item.</li>
+                                        <li>Find an online or physical camping store to purchase what you
+                                            need. You can
+                                            interact with the map and select the marker on the map to see
+                                            store
+                                            information. </li>
+                                        <li>Add a review to give us feedback on how you use Campmates. </li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container " id="about-icon-container">
-                        <div class="row icon-row ">
-                            <div class="col ">
-                                <i class="fas fa-tasks about-icon "></i>
-                                <p class="icon-p">Keep Track of what you have packed</p>
+                    <!-- Modal end -->
+                    <!-- Guideline Button and Modal end -->
+                </div>
+                <div class="col-12">
+                    <!-- Button to reset selections -->
+                    <a id="resetbutton" onclick="history.go(0)" href="javascript:history.go(0)"
+                        class="btn clear-btn">Clear all</a>
+                    <!-- Button to reset selections end -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Checklist subsection -->
+        <div class="container checklist-container" id="optionsHolder">
+            <div class="row">
+                <!-- Items to pack -->
+                <div class="col-md-12 col-lg-6">
+                    <h3 class="checklist-headings"> <i class="fas fa-tasks"></i> Items to Pack </h3>
+
+                    <!-- Categories & Items Collapse - orignally from Bootstrap with modifications for project -->
+                    <div class="card">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-cooking-tab" data-toggle="pill"
+                                    href="#pills-cooking" role="tab" aria-controls="pills-cooking"
+                                    aria-selected="true">Cooking Kit</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-food-tab" data-toggle="pill" href="#pills-food" role="tab"
+                                    aria-controls="pills-food" aria-selected="false">Food & Drink</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-navigation-tab" data-toggle="pill"
+                                    href="#pills-navigation" role="tab" aria-controls="pills-navigation"
+                                    aria-selected="false">Navigation</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-toolkit-tab" data-toggle="pill" href="#pills-toolkit"
+                                    role="tab" aria-controls="pills-toolkit" aria-selected="false">Tool Kit</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-ownitems-tab" data-toggle="pill" href="#pills-ownitems"
+                                    role="tab" aria-controls="pills-ownitems" aria-selected="false">Own Items</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <!-- Cooking Kit list with buttons -->
+                            <div class="tab-pane fade show active" id="pills-cooking" role="tabpanel"
+                                aria-labelledby="pills-cooking-tab">
+                                <ul class="list-group ">
+                                    <li class="list-group-item">Aluminium Foil
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Aluminium Foil">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Aluminium Foil">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Biodegradable Soap
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Biodegradable Soap">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Biodegradable Soap">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Bottle opener
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Bottle opener">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Bottle opener">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Can opener
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Can opener">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Can opener">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Corkscrew
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Corkscrew">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Corkscrew">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Cutting Board
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Cutting Board">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Cutting Board">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Dishwashing Sponge
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Dishwashing Sponge">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Dishwashing Sponge">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Dish Towels
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Dish Towels">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Dish Towels">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Dishes
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Dishes">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Dishes">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Drain Plug
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Drain Plug">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Drain Plug">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Eating Utensils
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Eating Utensils">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Eating Utensils">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Frying Pan
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Frying Pan">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Frying Pan">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Large Cookpot
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Large Cookpot">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Large Cookpot">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Large Kitchen Knife
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Large Kitchen Knife">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Large Kitchen Knife">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Matches For Stove
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Matches For Stove">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Matches For Stove">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Paper Towels
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Paper Towels">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Paper Towels">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Plastic Cold Cups
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Plastic Cold Cups">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Plastic Cold Cups">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Plastic Hot Cups
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Plastic Hot Cups">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Plastic Hot Cups">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Pot Mitten
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Pot Mitten">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Pot Mitten">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Small Kitchen Knife
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Small Kitchen Knife">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Small Kitchen Knife">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Trash Bags
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Trash Bags">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Trash Bags">Buy</button>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="col">
-                                <i class="fas fa-shopping-basket about-icon "></i>
-                                <p class="icon-p">Make a list of items still to buy</p>
+                            <!-- Cooking Kit list with buttons end -->
+
+                            <!-- Food & Drink list with buttons -->
+                            <div class="tab-pane fade" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Beer
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Beer">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Beer">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Butter
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Butter">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Butter">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Coffee
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Coffee">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Coffee">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Cold Drinks
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Cold Drinks">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Cold Drinks">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Cooking Oil
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Cooking Oil">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Cooking Oil">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Hot Chocolate
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Hot Chocolate">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Hot Chocolate">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Menu Plan
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Menu Plan">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Menu Plan">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Milk
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Milk">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Milk">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Salt & Pepper
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Salt & Pepper">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Salt & Pepper">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Snacks
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Snacks">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Snacks">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Spices
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Spices">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Spices">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Staple Foods
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Staple Foods">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Staple Foods">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Tea
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Tea">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Tea">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Vitamins
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Vitamins">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Vitamins">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Water
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Water">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Water">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Wine
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Wine">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Wine">Buy</button>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="col">
-                                <i class="fas fa-map-marker-alt about-icon "></i>
-                                <p class="icon-p">Find an online or physical store</p>
+                            <!-- Food & Drink list with buttons end -->
+
+                            <!-- Navigation list with buttons -->
+                            <div class="tab-pane fade" id="pills-navigation" role="tabpanel"
+                                aria-labelledby="pills-navigation-tab">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Arrival Departure Checklists
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Arrival Departure Checklists">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Arrival Departure Checklists">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Binoculars
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Binoculars">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Binoculars">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Calculator
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Calculator">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Calculator">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Charts
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Charts">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Charts">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Cruising Guide
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Cruising Guide">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Cruising Guide">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Drawing Compass
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Drawing Compass">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Drawing Compass">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Hand-bearing Compass
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Hand-bearing Compass">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Hand-bearing Compass">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Lead Line
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Lead Line">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Lead Line">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Light List
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Light List">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Light List">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Log Book
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Log Book">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Log Book">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Parallel Ruler
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Parallel Ruler">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Parallel Ruler">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Pencil & Eraser
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Pencil & Eraser">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Pencil & Eraser">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Plotting Ruler
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Plotting Ruler">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Plotting Ruler">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Sextant
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Sextant">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Sextant">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Slide Rule
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Slide Rule">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Slide Rule">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Tide Tables
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Tide Tables">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Tide Tables">Buy</button>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
+                            <!-- Navigation list with buttons end -->
+                            <!-- Tool Kit list with buttons -->
+                            <div class="tab-pane fade" id="pills-toolkit" role="tabpanel"
+                                aria-labelledby="pills-toolkit-tab">
+                                <ul class="list-group">
+                                    <li class="list-group-item">1/4 in. 100 ft. Nylon Line
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="1/4 in. 100 ft. Nylon Line">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="1/4 in. 100 ft. Nylon Line">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">1/8 in. 50 ft. Dacron Line
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="1/8 in. 50 ft. Dacron Line">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="1/8 in. 50 ft. Dacron Line">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">3/8 in. 50 ft. Dacron Line
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="3/8 in. 50 ft. Dacron Line">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="3/8 in. 50 ft. Dacron Line">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Assorted Bungee Cords
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Assorted Bungee Cords">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Assorted Bungee Cords">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Batteries (AA & AAA)
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Batteries (AA & AAA)">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Batteries (AA & AAA)">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Duct Tape
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Duct Tape">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Duct Tape">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">First-aid Kit
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="First-aid Kit">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="First-aid Kit">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Flashlight
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Flashlight">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Flashlight">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Knife Sharpener
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Knife Sharpener">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Knife Sharpener">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Leatherman
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Leatherman">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Leatherman">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Sewing Kit (with heavy-duty thread)
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Sewing Kit (with heavy-duty thread)">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Sewing Kit (with heavy-duty thread)">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Spare 6V Battery
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Spare 6V Battery">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Spare 6V Battery">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Spare Winch Handle
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Spare Winch Handle">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Spare Winch Handle">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Vise-grips
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Vise-grips">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Vise-grips">Buy</button>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">Wire Cutters
+                                        <div role="group" aria-label="Checklist Buttons">
+                                            <button type="button" class="btn btn-check checkItem"
+                                                data-itemname="Wire Cutters">Check</button>
+                                            <button type="button" class="btn btn-buy to-buy-items"
+                                                data-buyitemname="Wire Cutters">Buy</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Tool Kit list with buttons end -->
+                            <!-- My Own Items list with buttons -->
+                            <div class="tab-pane fade" id="pills-ownitems" role="tabpanel"
+                                aria-labelledby="pills-ownitems-tab">
+                                <form class="own-list-form">
+                                    <label for="formOwnInput" class="ownItemLabel">Type own Item</label>
+                                    <input type="text" class="form-control item-input" id="formOwnInput"
+                                        aria-label="User own Item" />
+
+                                    <button class="btn btn-add-own" type="submit">+
+                                    </button>
+                                </form>
+                                <!-- Wrapper for own list items-->
+                                <ul id="ownItems" class="list-group"></ul>
+                                <!-- Wrapper for own list items end -->
+                            </div>
+                            <!-- My Own Items list with buttons end -->
+                        </div>
+                        <!-- Categories & Items Collapse end -->
+                    </div>
+                </div>
+                <!-- Items to pack end -->
+
+                <!-- Already Packed items -->
+                <div class="col-md-12 col-lg-3">
+                    <h3 class="checklist-headings"> <i class="far fa-check-circle"></i> Already Packed </h3>
+                    <div class="card tab-pane" id="packed-card">
+                        <div class="card-body" id="packed-body">
+                            <ul id="packedItems" class="list-group">
+                            </ul>
                         </div>
                     </div>
-                    <div class="wave-icon" id="wave2">
-                        <i class="fas fa-water"></i>
-                    </div>
-                    <div class="circle"></div>
-                </section>
-                <!-- About section end -->
-
-                <!-- Checklist section -->
-                <section id="checklist-section">
-                    <div class="title section-underline">
-                        <hgroup class="text-center">
-                            <h2 class="sections-title">Checklist</h2>
-                        </hgroup>
-                    </div>
-
-
-                    <!-- Campsite info -->
-                    <div class="container">
-                        <div class="row" id="camp-info">
-                            <form class="col-12 col-lg-6">
-                                <label for="formGroupCampmatesInput" class="cmp-label">Type Adventure Name</label>
-                                <input type="text" class="form-control" id="formGroupCampmatesInput">
-                            </form>
-                            <form class="col-12 col-lg-6">
-                                <label for="formGroupCampsiteInput" class="cmp-label">Campsite Name</label>
-                                <input type="text" class="form-control" id="formGroupCampsiteInput">
-                            </form>
+                </div>
+                <!-- Already Packed items end -->
+                <!-- To Buy items -->
+                <div class="col-md-12 col-lg-3">
+                    <h3 class="checklist-headings"><i class="fas fa-shopping-cart"></i> To Buy</h3>
+                    <div class="card tab-pane" id="buy-card">
+                        <div class="card-body" id="buy-body">
+                            <ul id="toBuyItems" class="list-group">
+                            </ul>
                         </div>
                     </div>
-                    <!-- Camping info end -->
+                </div>
+                <!-- To Buy items end -->
+            </div>
+        </div>
+        <!-- Checklist subsection end -->
+    </section>
+    <!-- Checklist section end -->
 
+    <!-- icon -->
+    <div class="boat-icon">
+        <img src="assets/images/steerwheel.png" alt="adventure steering wheel">
+    </div>
+    <!-- icon end -->
 
-                    <div class="container" id="checklist-intro-btns">
+    <!-- Find a Store section -->
+    <section id="store-section">
+        <div class="title section-underline">
+            <hgroup class="text-center">
+                <h2 class="sections-title">Find a Store</h2>
+            </hgroup>
+        </div>
+        <div class="container store-container">
+            <div class="row">
+                <!-- Online Store section -->
+                <div class="col-12 online-wrapper">
+                    <h3 class="store-text">Online Store <i class="fas fa-globe"></i></h3>
+                    <p class="store-text store-p">Check out these online stores</p>
+                    <div class="container links-wrapper">
+                        <div class="row shop-row">
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://www.campingworld.co.uk/"
+                                role="button" target="_blank" rel="noopener noreferrer">Camping World</a>
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://www.winfieldsoutdoors.co.uk/"
+                                role="button" target="_blank" rel="noopener noreferrer">Windfields Outdoors</a>
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://basecamp.ie/" role="button"
+                                target="_blank" rel="noopener noreferrer">Basecamp Ireland</a>
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://www.outlandusa.com/" role="button"
+                                target="_blank" rel="noopener noreferrer">Outland USA</a>
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://www.rothco.com/" role="button"
+                                target="_blank" rel="noopener noreferrer">Rothco Wholesale</a>
+                            <a class="col-12 col-lg-3 btn btn-store" href="https://www.campmor.com/" role="button"
+                                target="_blank" rel="noopener noreferrer">Campmor</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Online Store section end -->
+                <!-- Physical Store section -->
+                <div class="col-12 physical-wrapper">
+                    <h3 class="store-text">Physical Store <i class="fas fa-map-marker-alt"></i></h3>
+                    <p class="store-text store-p">Find a camping store near you</p>
+                    <div class="container map-wrapper">
                         <div class="row">
-                            <!-- Guideline Button and Modal -->
-                            <div class="col-12">
-                                <!-- Button trigger modal - orignally from Bootstrap with modifications for project-->
-                                <button type="button" class="btn help-btn" data-toggle="modal"
-                                    data-target="#exampleModal">LET'S SET
-                                    UP CAMP
-                                </button>
-                                <!-- Button trigger modal end-->
-                                <!-- Modal - orignally from Bootstrap with modifications -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <i class="fas fa-water wave-icon" id="wave3"></i>
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Let’s get you started
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body" id="modal-p">
-                                                <h6>There are a lot of complex things in the world, this doesn’t have to
-                                                    be one of
-                                                    them. Let’s break it down for you.</h6>
-                                                <ol>
-                                                    <li>Select the item you have packed or prepared from the
-                                                        pre-prepared list or
-                                                        add your own item by typing in the space provided. If you want
-                                                        to create
-                                                        your own item, go to the "Own List" category and click or tap on
-                                                        the “+”
-                                                        button. </li>
-                                                    <li>Select the "Checked" option next to each item you have packed.
-                                                        It will then
-                                                        move to the "Already Packed" list.</li>
-                                                    <li>Select the "Buy” option next to each item if you still need to
-                                                        buy it. You
-                                                        then have the option to select the "Check" button once you have
-                                                        bought and
-                                                        packed the item.</li>
-                                                    <li>Find an online or physical camping store to purchase what you
-                                                        need. You can
-                                                        interact with the map and select the marker on the map to see
-                                                        store
-                                                        information. </li>
-                                                    <li>Add a review to give us feedback on how you use Campmates. </li>
-                                                </ol>
-                                            </div>
+                            <div class="col-12 col-lg-6" id="map">Google Map</div>
+                            <div class="col-12 col-lg-6">
+                                <div id="map-info">
+                                    <!-- Store 1 section -->
+                                    <div class="card store campworld hide" id="campworld">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Camping World</h4>
+                                            <p class="store-card-text"> The Camping Loft, Crofton Avenue, Co
+                                                Armagh,
+                                                Northern Ireland</p>
+                                            <p class="store-card-text">T: +44 1280 428675</p>
+                                            <p class="store-card-text">E: camping@worldhdp.co.uk</p>
+                                            <a href="https://www.campingworld.co.uk/" class="btn btn-store-info"
+                                                target="_blank" rel="noopener noreferrer">Visit Website</a>
+
                                         </div>
                                     </div>
+                                    <!-- Store 1 section end -->
+                                    <!-- Store 2 section -->
+                                    <div class="card store winfieldsoutdoors hide" id="winfieldsoutdoors">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Winfields Outdoors</h4>
+                                            <p class="store-card-text"> 12A West Pier, Southhampton, Co.
+                                                Hampshire,
+                                                England</p>
+                                            <p class="store-card-text">T: +44 1832 421422</p>
+                                            <p class="store-card-text">E: sales@winfieldsoutdoors.co.uk</p>
+                                            <a href="https://www.winfieldsoutdoors.co.uk/" class="btn btn-store-info"
+                                                target="_blank" rel="noopener noreferrer">Visit Website</a>
+                                        </div>
+                                    </div>
+                                    <!-- Store 2 section end -->
+                                    <!-- Store 3 section -->
+                                    <div class="card store basecamp hide" id="basecamp">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Basecamp</h4>
+                                            <p class="store-card-text"> Unit 201, Dun Laoghaire Shopping
+                                                Centre, Co
+                                                Dublin, Ireland</p>
+                                            <p class="store-card-text">T: +353 1 280 0808 </p>
+                                            <p class="store-card-text">E: shop@basecamp.ie</p>
+                                            <a href="https://basecamp.ie/" target="_blank" class="btn btn-store-info"
+                                                rel="noopener noreferrer">Visit
+                                                Website</a>
+                                        </div>
+                                    </div>
+                                    <!-- Store 3 section end -->
+                                    <!-- Store 4 section -->
+                                    <div class="card store outlandusa hide" id="outlandusa">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Outland USA</h4>
+                                            <p class="store-card-text"> The Pavilion, Tennessee, Viginia,
+                                                USA</p>
+                                            <p class="store-card-text">T: +615 776 8824 </p>
+                                            <p class="store-card-text">E: cs@outlandusa.com</p>
+                                            <a href="https://www.outlandusa.com/" target="_blank"
+                                                class="btn btn-store-info" rel="noopener noreferrer">Visit
+                                                Website</a>
+                                        </div>
+                                    </div>
+                                    <!-- Store 4 section end -->
                                 </div>
-                                <!-- Modal end -->
-                                <!-- Guideline Button and Modal end -->
-                            </div>
-                            <div class="col-12">
-                                <!-- Button to reset selections -->
-                                <a id="resetbutton" onclick="history.go(0)" href="javascript:history.go(0)"
-                                    class="btn clear-btn">Clear all</a>
-                                <!-- Button to reset selections end -->
                             </div>
                         </div>
                     </div>
-
-                    <!-- Checklist subsection -->
-                    <div class="container checklist-container" id="optionsHolder">
-                        <div class="row">
-                            <!-- Items to pack -->
-                            <div class="col-md-12 col-lg-6">
-                                <h3 class="checklist-headings"> <i class="fas fa-tasks"></i> Items to Pack </h3>
-
-                                <!-- Categories & Items Collapse - orignally from Bootstrap with modifications for project -->
-                                <div class="card">
-                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link active" id="pills-cooking-tab" data-toggle="pill"
-                                                href="#pills-cooking" role="tab" aria-controls="pills-cooking"
-                                                aria-selected="true">Cooking Kit</a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link" id="pills-food-tab" data-toggle="pill"
-                                                href="#pills-food" role="tab" aria-controls="pills-food"
-                                                aria-selected="false">Food & Drink</a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link" id="pills-navigation-tab" data-toggle="pill"
-                                                href="#pills-navigation" role="tab" aria-controls="pills-navigation"
-                                                aria-selected="false">Navigation</a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link" id="pills-toolkit-tab" data-toggle="pill"
-                                                href="#pills-toolkit" role="tab" aria-controls="pills-toolkit"
-                                                aria-selected="false">Tool Kit</a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link" id="pills-ownitems-tab" data-toggle="pill"
-                                                href="#pills-ownitems" role="tab" aria-controls="pills-ownitems"
-                                                aria-selected="false">Own Items</a>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content" id="pills-tabContent">
-                                        <!-- Cooking Kit list with buttons -->
-                                        <div class="tab-pane fade show active" id="pills-cooking" role="tabpanel"
-                                            aria-labelledby="pills-cooking-tab">
-                                            <ul class="list-group ">
-                                                <li class="list-group-item">Aluminium Foil
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Aluminium Foil">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Aluminium Foil">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Biodegradable Soap
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Biodegradable Soap">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Biodegradable Soap">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Bottle opener
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Bottle opener">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Bottle opener">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Can opener
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Can opener">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Can opener">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Corkscrew
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Corkscrew">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Corkscrew">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Cutting Board
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Cutting Board">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Cutting Board">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Dishwashing Sponge
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Dishwashing Sponge">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Dishwashing Sponge">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Dish Towels
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Dish Towels">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Dish Towels">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Dishes
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Dishes">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Dishes">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Drain Plug
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Drain Plug">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Drain Plug">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Eating Utensils
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Eating Utensils">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Eating Utensils">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Frying Pan
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Frying Pan">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Frying Pan">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Large Cookpot
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Large Cookpot">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Large Cookpot">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Large Kitchen Knife
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Large Kitchen Knife">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Large Kitchen Knife">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Matches For Stove
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Matches For Stove">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Matches For Stove">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Paper Towels
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Paper Towels">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Paper Towels">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Plastic Cold Cups
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Plastic Cold Cups">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Plastic Cold Cups">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Plastic Hot Cups
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Plastic Hot Cups">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Plastic Hot Cups">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Pot Mitten
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Pot Mitten">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Pot Mitten">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Small Kitchen Knife
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Small Kitchen Knife">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Small Kitchen Knife">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Trash Bags
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Trash Bags">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Trash Bags">Buy</button>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- Cooking Kit list with buttons end -->
-
-                                        <!-- Food & Drink list with buttons -->
-                                        <div class="tab-pane fade" id="pills-food" role="tabpanel"
-                                            aria-labelledby="pills-food-tab">
-                                            <ul class="list-group">
-                                                <li class="list-group-item">Beer
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Beer">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Beer">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Butter
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Butter">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Butter">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Coffee
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Coffee">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Coffee">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Cold Drinks
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Cold Drinks">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Cold Drinks">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Cooking Oil
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Cooking Oil">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Cooking Oil">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Hot Chocolate
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Hot Chocolate">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Hot Chocolate">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Menu Plan
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Menu Plan">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Menu Plan">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Milk
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Milk">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Milk">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Salt & Pepper
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Salt & Pepper">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Salt & Pepper">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Snacks
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Snacks">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Snacks">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Spices
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Spices">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Spices">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Staple Foods
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Staple Foods">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Staple Foods">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Tea
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Tea">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Tea">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Vitamins
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Vitamins">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Vitamins">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Water
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Water">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Water">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Wine
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Wine">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Wine">Buy</button>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- Food & Drink list with buttons end -->
-
-                                        <!-- Navigation list with buttons -->
-                                        <div class="tab-pane fade" id="pills-navigation" role="tabpanel"
-                                            aria-labelledby="pills-navigation-tab">
-                                            <ul class="list-group">
-                                                <li class="list-group-item">Arrival Departure Checklists
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Arrival Departure Checklists">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Arrival Departure Checklists">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Binoculars
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Binoculars">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Binoculars">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Calculator
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Calculator">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Calculator">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Charts
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Charts">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Charts">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Cruising Guide
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Cruising Guide">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Cruising Guide">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Drawing Compass
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Drawing Compass">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Drawing Compass">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Hand-bearing Compass
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Hand-bearing Compass">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Hand-bearing Compass">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Lead Line
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Lead Line">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Lead Line">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Light List
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Light List">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Light List">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Log Book
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Log Book">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Log Book">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Parallel Ruler
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Parallel Ruler">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Parallel Ruler">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Pencil & Eraser
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Pencil & Eraser">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Pencil & Eraser">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Plotting Ruler
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Plotting Ruler">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Plotting Ruler">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Sextant
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Sextant">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Sextant">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Slide Rule
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Slide Rule">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Slide Rule">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Tide Tables
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Tide Tables">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Tide Tables">Buy</button>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- Navigation list with buttons end -->
-                                        <!-- Tool Kit list with buttons -->
-                                        <div class="tab-pane fade" id="pills-toolkit" role="tabpanel"
-                                            aria-labelledby="pills-toolkit-tab">
-                                            <ul class="list-group">
-                                                <li class="list-group-item">1/4 in. 100 ft. Nylon Line
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="1/4 in. 100 ft. Nylon Line">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="1/4 in. 100 ft. Nylon Line">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">1/8 in. 50 ft. Dacron Line
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="1/8 in. 50 ft. Dacron Line">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="1/8 in. 50 ft. Dacron Line">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">3/8 in. 50 ft. Dacron Line
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="3/8 in. 50 ft. Dacron Line">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="3/8 in. 50 ft. Dacron Line">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Assorted Bungee Cords
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Assorted Bungee Cords">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Assorted Bungee Cords">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Batteries (AA & AAA)
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Batteries (AA & AAA)">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Batteries (AA & AAA)">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Duct Tape
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Duct Tape">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Duct Tape">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">First-aid Kit
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="First-aid Kit">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="First-aid Kit">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Flashlight
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Flashlight">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Flashlight">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Knife Sharpener
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Knife Sharpener">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Knife Sharpener">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Leatherman
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Leatherman">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Leatherman">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Sewing Kit (with heavy-duty thread)
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Sewing Kit (with heavy-duty thread)">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Sewing Kit (with heavy-duty thread)">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Spare 6V Battery
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Spare 6V Battery">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Spare 6V Battery">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Spare Winch Handle
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Spare Winch Handle">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Spare Winch Handle">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Vise-grips
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Vise-grips">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Vise-grips">Buy</button>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">Wire Cutters
-                                                    <div role="group" aria-label="Checklist Buttons">
-                                                        <button type="button" class="btn btn-check checkItem"
-                                                            data-itemname="Wire Cutters">Check</button>
-                                                        <button type="button" class="btn btn-buy to-buy-items"
-                                                            data-buyitemname="Wire Cutters">Buy</button>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- Tool Kit list with buttons end -->
-                                        <!-- My Own Items list with buttons -->
-                                        <div class="tab-pane fade" id="pills-ownitems" role="tabpanel"
-                                            aria-labelledby="pills-ownitems-tab">
-                                            <form class="own-list-form">
-                                                <label for="formOwnInput" class="ownItemLabel">Type own Item</label>
-                                                <input type="text" class="form-control item-input" id="formOwnInput"
-                                                    aria-label="User own Item" />
-
-                                                <button class="btn btn-add-own" type="submit">+
-                                                </button>
-                                            </form>
-                                            <!-- Wrapper for own list items-->
-                                            <ul id="ownItems" class="list-group"></ul>
-                                            <!-- Wrapper for own list items end -->
-                                        </div>
-                                        <!-- My Own Items list with buttons end -->
-                                    </div>
-                                    <!-- Categories & Items Collapse end -->
-                                </div>
-                            </div>
-                            <!-- Items to pack end -->
-
-                            <!-- Already Packed items -->
-                            <div class="col-md-12 col-lg-3">
-                                <h3 class="checklist-headings"> <i class="far fa-check-circle"></i> Already Packed </h3>
-                                <div class="card tab-pane" id="packed-card">
-                                    <div class="card-body" id="packed-body">
-                                        <ul id="packedItems" class="list-group">
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Already Packed items end -->
-                            <!-- To Buy items -->
-                            <div class="col-md-12 col-lg-3">
-                                <h3 class="checklist-headings"><i class="fas fa-shopping-cart"></i> To Buy</h3>
-                                <div class="card tab-pane" id="buy-card">
-                                    <div class="card-body" id="buy-body">
-                                        <ul id="toBuyItems" class="list-group">
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- To Buy items end -->
-                        </div>
-                    </div>
-                    <!-- Checklist subsection end -->
-                </section>
-                <!-- Checklist section end -->
-
-                <!-- icon -->
-                <div class="boat-icon">
-                    <img src="assets/images/steerwheel.png" alt="adventure steering wheel">
+                    <!-- Physical Store section -->
                 </div>
-                <!-- icon end -->
+            </div>
+        </div>
+        <!-- circle -->
+        <div class="circle"></div>
+        <!-- circle end -->
+    </section>
+    <!-- Find a Store section end-->
 
-                <!-- Find a Store section -->
-                <section id="store-section">
-                    <div class="title section-underline">
-                        <hgroup class="text-center">
-                            <h2 class="sections-title">Find a Store</h2>
-                        </hgroup>
+    <!-- Review section -->
+    <section id="reviews-section">
+        <div class="title section-underline">
+            <hgroup class="text-center">
+                <h2 class="sections-title">What others say</h2>
+            </hgroup>
+        </div>
+        <!-- Quote Carousel Code from Bootstrap with modifications -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/feedback1.jpeg" class="d-block w-100" alt="pitched tent at night">
+                    <div class="carousel-caption d d-md-block">
+                        <blockquote class="review-quote">“Great website for planning all my adventures with
+                            my kids.”
+                        </blockquote>
+                        <h3 class="review-heading">Jackson</h3>
+
                     </div>
-                    <div class="container store-container">
-                        <div class="row">
-                            <!-- Online Store section -->
-                            <div class="col-12 online-wrapper">
-                                <h3 class="store-text">Online Store <i class="fas fa-globe"></i></h3>
-                                <p class="store-text store-p">Check out these online stores</p>
-                                <div class="container links-wrapper">
-                                    <div class="row shop-row">
-                                        <a class="col-12 col-lg-3 btn btn-store" href="https://www.campingworld.co.uk/"
-                                            role="button" target="_blank" rel="noopener noreferrer">Camping World</a>
-                                        <a class="col-12 col-lg-3 btn btn-store"
-                                            href="https://www.winfieldsoutdoors.co.uk/" role="button" target="_blank"
-                                            rel="noopener noreferrer">Windfields Outdoors</a>
-                                        <a class="col-12 col-lg-3 btn btn-store" href="https://basecamp.ie/"
-                                            role="button" target="_blank" rel="noopener noreferrer">Basecamp Ireland</a>
-                                        <a class="col-12 col-lg-3 btn btn-store" href="https://www.outlandusa.com/"
-                                            role="button" target="_blank" rel="noopener noreferrer">Outland USA</a>
-                                        <a class="col-12 col-lg-3 btn btn-store" href="https://www.rothco.com/"
-                                            role="button" target="_blank" rel="noopener noreferrer">Rothco Wholesale</a>
-                                        <a class="col-12 col-lg-3 btn btn-store" href="https://www.campmor.com/"
-                                            role="button" target="_blank" rel="noopener noreferrer">Campmor</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Online Store section end -->
-                            <!-- Physical Store section -->
-                            <div class="col-12 physical-wrapper">
-                                <h3 class="store-text">Physical Store <i class="fas fa-map-marker-alt"></i></h3>
-                                <p class="store-text store-p">Find a camping store near you</p>
-                                <div class="container map-wrapper">
-                                    <div class="row">
-                                        <div class="col-12 col-lg-6" id="map">Google Map</div>
-                                        <div class="col-12 col-lg-6">
-                                            <div id="map-info">
-                                                <!-- Store 1 section -->
-                                                <div class="card store campworld hide" id="campworld">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Camping World</h4>
-                                                        <p class="store-card-text"> The Camping Loft, Crofton Avenue, Co
-                                                            Armagh,
-                                                            Northern Ireland</p>
-                                                        <p class="store-card-text">T: +44 1280 428675</p>
-                                                        <p class="store-card-text">E: camping@worldhdp.co.uk</p>
-                                                        <a href="https://www.campingworld.co.uk/"
-                                                            class="btn btn-store-info" target="_blank"
-                                                            rel="noopener noreferrer">Visit Website</a>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/feedback2.jpeg" class="d-block w-100" alt="campsite set up">
+                    <div class="carousel-caption d-md-block">
+                        <blockquote class="review-quote">“I always use Campmates before I head out on a long
+                            trip.”
+                        </blockquote>
+                        <h3 class="review-heading">Cecilia</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/feedback3.jpeg" class="d-block w-100"
+                        alt="pitched tent at night beside a lake">
+                    <div class="carousel-caption d-md-block">
+                        <blockquote class="review-quote">“Since I started using Campmates a few years ago, I
+                            have never forgotten what I need to pack”
+                        </blockquote>
+                        <h3 class="review-heading">Shannon D.</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Quote Carousel End -->
 
-                                                    </div>
-                                                </div>
-                                                <!-- Store 1 section end -->
-                                                <!-- Store 2 section -->
-                                                <div class="card store winfieldsoutdoors hide" id="winfieldsoutdoors">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Winfields Outdoors</h4>
-                                                        <p class="store-card-text"> 12A West Pier, Southhampton, Co.
-                                                            Hampshire,
-                                                            England</p>
-                                                        <p class="store-card-text">T: +44 1832 421422</p>
-                                                        <p class="store-card-text">E: sales@winfieldsoutdoors.co.uk</p>
-                                                        <a href="https://www.winfieldsoutdoors.co.uk/"
-                                                            class="btn btn-store-info" target="_blank"
-                                                            rel="noopener noreferrer">Visit Website</a>
-                                                    </div>
-                                                </div>
-                                                <!-- Store 2 section end -->
-                                                <!-- Store 3 section -->
-                                                <div class="card store basecamp hide" id="basecamp">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Basecamp</h4>
-                                                        <p class="store-card-text"> Unit 201, Dun Laoghaire Shopping
-                                                            Centre, Co
-                                                            Dublin, Ireland</p>
-                                                        <p class="store-card-text">T: +353 1 280 0808 </p>
-                                                        <p class="store-card-text">E: shop@basecamp.ie</p>
-                                                        <a href="https://basecamp.ie/" target="_blank"
-                                                            class="btn btn-store-info" rel="noopener noreferrer">Visit
-                                                            Website</a>
-                                                    </div>
-                                                </div>
-                                                <!-- Store 3 section end -->
-                                                <!-- Store 4 section -->
-                                                <div class="card store outlandusa hide" id="outlandusa">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Outland USA</h4>
-                                                        <p class="store-card-text"> The Pavilion, Tennessee, Viginia,
-                                                            USA</p>
-                                                        <p class="store-card-text">T: +615 776 8824 </p>
-                                                        <p class="store-card-text">E: cs@outlandusa.com</p>
-                                                        <a href="https://www.outlandusa.com/" target="_blank"
-                                                            class="btn btn-store-info" rel="noopener noreferrer">Visit
-                                                            Website</a>
-                                                    </div>
-                                                </div>
-                                                <!-- Store 4 section end -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Physical Store section -->
+        <!-- Feedback Card -->
+        <div class="card" id="feedback-card">
+            <div class="card-body">
+                <h3 class="card-title" id="feedback-title">Feedback <i class="far fa-comments"></i> </h3>
+                <p class="feedback-card-text">We would love to hear your thoughts, suggestions, concerns or
+                    problems with anything so we can improve!</p>
+                <!-- Form Code from Bootstrap -->
+                <form onsubmit="sendMail(this);" class="container form-container" id="feedbackForm">
+                    <div class="row form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="fname">First name</label>
+                            <input type="text" name="fname" id="fname" class="form-control" required="">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lname">Last name</label>
+                            <input type="text" name="lname" id="lname" class="form-control" required="">
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col-12">
+                            <label for="emailaddress">Email</label>
+                            <input type="email" name="emailaddress" class="form-control" required="" id="emailaddress">
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col-12">
+                            <label for="textmessage">Message</label>
+                            <textarea rows="5" name="message" class="form-control" id="textmessage"
+                                required=""></textarea>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col contact-btn-container" id="center-btn">
+                                <button type="submit" class="btn  center-block" id="feedback-btn">Send
+                                    Message</button>
+
                             </div>
                         </div>
                     </div>
-                    <!-- circle -->
-                    <div class="circle"></div>
-                    <!-- circle end -->
-                </section>
-                <!-- Find a Store section end-->
+                </form>
+            </div>
+        </div>
+        <!-- Feedback Card end -->
+    </section>
+    <!-- Review section end -->
 
-                <!-- Review section -->
-                <section id="reviews-section">
-                    <div class="title section-underline">
-                        <hgroup class="text-center">
-                            <h2 class="sections-title">What others say</h2>
-                        </hgroup>
-                    </div>
-                    <!-- Quote Carousel Code from Bootstrap with modifications -->
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/images/feedback1.jpeg" class="d-block w-100"
-                                    alt="pitched tent at night">
-                                <div class="carousel-caption d d-md-block">
-                                    <blockquote class="review-quote">“Great website for planning all my adventures with
-                                        my kids.”
-                                    </blockquote>
-                                    <h3 class="review-heading">Jackson</h3>
 
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/feedback2.jpeg" class="d-block w-100" alt="campsite set up">
-                                <div class="carousel-caption d-md-block">
-                                    <blockquote class="review-quote">“I always use Campmates before I head out on a long
-                                        trip.”
-                                    </blockquote>
-                                    <h3 class="review-heading">Cecilia</h3>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/feedback3.jpeg" class="d-block w-100"
-                                    alt="pitched tent at night beside a lake">
-                                <div class="carousel-caption d-md-block">
-                                    <blockquote class="review-quote">“Since I started using Campmates a few years ago, I
-                                        have never forgotten what I need to pack”
-                                    </blockquote>
-                                    <h3 class="review-heading">Shannon D.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <!-- Quote Carousel End -->
+    <!-- Footer section -->
+    <footer class="footer-section">
+        <h3 class="footer-heading">Created by Shannon Davidson</h3>
+        <ul class="list-inline social-links ">
+            <li><a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer" aria-hidden="false"><i
+                        class="fab fa-instagram"></i>
+                    <span class="sr-only">Instagram</span>
+                </a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/" rel="noopener noreferrer" aria-hidden="false"><i
+                        class="fab fa-linkedin-in"></i>
+                    <span class="sr-only">Linkedin</span>
+                </a></li>
+            <li><a target="_blank" href="https://twitter.com/" rel="noopener noreferrer" aria-hidden="false"><i
+                        class="fab fa-twitter"></i>
+                    <span class="sr-only">Twitter</span>
+                </a></li>
+        </ul>
+    </footer>
+    <!-- Footer section end -->
 
-                    <!-- Feedback Card -->
-                    <div class="card" id="feedback-card">
-                        <div class="card-body">
-                            <h3 class="card-title" id="feedback-title">Feedback <i class="far fa-comments"></i> </h3>
-                            <p class="feedback-card-text">We would love to hear your thoughts, suggestions, concerns or
-                                problems with anything so we can improve!</p>
-                            <!-- Form Code from Bootstrap -->
-                            <form onsubmit="sendMail(this);" class="container form-container" id="feedbackForm">
-                                <div class="row form-row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="fname">First name</label>
-                                        <input type="text" name="fname" id="fname" class="form-control" required="">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="lname">Last name</label>
-                                        <input type="text" name="lname" id="lname" class="form-control" required="">
-                                    </div>
-                                </div>
-                                <div class="row form-row">
-                                    <div class="col-12">
-                                        <label for="emailaddress">Email</label>
-                                        <input type="email" name="emailaddress" class="form-control" required=""
-                                            id="emailaddress">
-                                    </div>
-                                </div>
-                                <div class="row form-row">
-                                    <div class="col-12">
-                                        <label for="textmessage">Message</label>
-                                        <textarea rows="5" name="message" class="form-control" id="textmessage"
-                                            required=""></textarea>
-                                    </div>
-                                    <div class="form-row text-center">
-                                        <div class="col contact-btn-container" id="center-btn">
-                                            <button type="submit" class="btn  center-block" id="feedback-btn">Send
-                                                Message</button>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- Feedback Card end -->
-                </section>
-                <!-- Review section end --> 
-<!-- Scripts --> 
-    <!-- jQuery script --> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <!-- jQuery script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <!-- Bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
     <!-- Google Maps MarkerCluster script -->
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <!-- Maps script file -->
     <script src="assets/js/maps.js"></script>
     <!-- Google Maps script-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChqqn8Ai2JeoWjYRLmo2mdSo8TaTdvHr0&callback=initMap"></script>
-    <!-- Email script file --> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChqqn8Ai2JeoWjYRLmo2mdSo8TaTdvHr0&callback=initMap">
+    </script>
+    <!-- Email script file -->
     <script src="assets/js/sendEmail.js"></script>
-    <!-- Main script file --> 
+    <!-- Main script file -->
     <script src="assets/js/script.js"></script>
-<!-- Scripts end--> 
+    <!-- Scripts end-->
 </body>
 
 </html>
