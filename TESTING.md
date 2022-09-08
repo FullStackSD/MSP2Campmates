@@ -2,7 +2,7 @@
 
 [Main README.md file](README.md)
 
-[View live version of website via GitHub Pages]()
+[View live version of website via GitHub Pages](https://fullstacksd.github.io/MSP2Campmates/)
 ## Testing user stories from the UX section
 1. As a beginner to an intermediate camper and adventurer, I want guidance on what to pack for a day/overnight trip.
     - In the Checklist section there is a comprehensive list of items divided into different categories so the user is guided on what to pack. The user does not have to think of items themselves or research for items.
@@ -68,7 +68,7 @@ To validate the CCS code of the project.
     2. Fix Warnings for background and border colour: Remove border colour.
     3. Fix Warning for unknown vendors: Remove vendor extensions.
     4. Fix Error: change element to anchor tag for to clear storage.
-- Final version: only errors and warnings left are from 3rd party apps (no errors or warnings for ) 
+- Final version: only errors and warnings left are from 3rd party apps (no errors or warnings for https://fullstacksd.github.io/MSP2Campmates/) 
 - ![CSS Validation](assets/testing_images/cssvalidator.png)
 
 ### [W3C Markup Validation](https://validator.w3.org/)
@@ -85,7 +85,7 @@ To validate the HTML code of the project.
     3. Add "alt" attributes to 3 carousel images.
     4. Add identical for and id elements for label and input fields.
     5. Remove aria-describedby attribute.
-- Final version: no errors or warnings for )
+- Final version: no errors or warnings for https://fullstacksd.github.io/MSP2Campmates/)
 - ![HTMl Validation](assets/testing_images/htmlvalidator.png)
 
 ### Google Dev Tool 
@@ -94,7 +94,7 @@ To check for errors in JavaScript code.
 1. Error was showing up relating to "if (currentPackedItems.includes(elementText))"  in line 14 saying that currentPackedItems was not declared yet. This only occured if the page is opened for the first time and no data was selected previously.
 * **Fix** 
 1. Becuase it there was no value yet (nothing stored), an error was returned. The fix was: Add "[]" so that error is not returned if no data stored.
-- Final version: no errors or warnings for )
+- Final version: no errors or warnings for https://fullstacksd.github.io/MSP2Campmates/)
 
 ## Manual testing of all elements and functionality on every page
 1.  Landing Section
